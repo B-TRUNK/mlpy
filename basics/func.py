@@ -1,3 +1,4 @@
+#function with a While loop
 def count(number):
 
 
@@ -7,4 +8,16 @@ def count(number):
             
 
 
-count(10) 
+count(10)
+
+print('\n\n')
+
+animal_list = ['Dog' ,'Pigeon' ,'Wolf']
+
+#function with a for loop
+def animal_display(some_list):
+
+    for animal in some_list:
+        print(animal)
+
+animal_display(animal_list)
