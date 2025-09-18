@@ -12,3 +12,8 @@ d = [4 ,5 ,6 ,9 ,-1 ,0]
 print(d[1:3])
 print(d[:])
 print(d[:2])
+
+
+ranged_list = range(1 ,10)
+for i in ranged_list:
+    print (i)
