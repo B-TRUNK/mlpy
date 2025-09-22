@@ -21,3 +21,11 @@ def animal_display(some_list):
         print(animal)
 
 animal_display(animal_list)
+
+
+
+input_name = input("Please Enter Your Name : ")
+def say_hello(name):
+    print(f"Hello , {name}")
+
+say_hello(input_name)
