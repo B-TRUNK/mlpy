@@ -32,8 +32,8 @@ say_hello(input_name)
 
 
 def mul():
-    num_1 = input(f"Please Input 1st Number for Multiplication :")
-    num_2 = input(f"Please Input 2st Number for Multiplication :")
+    num_1 = input("Please Input 1st Number for Multiplication :")
+    num_2 = input("Please Input 2st Number for Multiplication :")
 
     multiplied_result = (num_1*num_2)
     return multiplied_result
