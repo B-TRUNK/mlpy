@@ -17,3 +17,14 @@ print(d[:2])
 ranged_list = range(1 ,10)
 for i in ranged_list:
     print (i)
+
+
+
+#Duplicated List
+nums = [2 ,3 ,6 ,9 ,6 ,2 ,1 ,1 ,0 ,8 ,9 ,6 ,4 ,3 ,5 ,0 ,9 ,2 ,2 ,6 ,7 ,2 ,1 ,8]
+
+#To print non duplicated contents
+print(set(nums))
+
+#To Check all available Methods to be used with a data type
+print(dir(nums))
