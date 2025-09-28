@@ -28,3 +28,18 @@ print(set(nums))
 
 #To Check all available Methods to be used with a data type
 print(dir(nums))
+
+#nested lists
+
+no_list = [
+    [1 ,2 ,3],
+    [4 ,5 ,6],
+    [7 ,8 ,9],
+    [0]
+]
+
+print(no_list[2][1])
+
+for row in no_list:
+    for column in row:
+        print(column)
