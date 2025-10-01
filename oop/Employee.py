@@ -14,8 +14,9 @@ class Employee:
     def bonus(self):
         
         if age >= 60:
+            self.bonus += 500
             print("Salary raised to :" + str(self.salary))
 
         else :
-            print("Salary is :" + str(self.sslary))
+            print("Salary is :" + str(self.salary))
     
