@@ -1,12 +1,21 @@
 class Employee:
     
     #initialization_function
-    def __init__(self ,name ,age ,department ,is_manager)
+    def __init__(self ,name ,age ,department ,is_manager ,salary)
         self.name = name
         self.age = age
         self.department = department
         self.is_manager = is_manager
+        self.salary = salary
    
     def print_info(self):
         print(self.name ,self.age ,self.department ,self.ismanager)
+
+    def bonus(self):
+        
+        if age >= 60:
+            print("Salary raised to :" + str(self.salary))
+
+        else :
+            print("Salary is :" + str(self.sslary))
     
