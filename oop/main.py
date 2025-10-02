@@ -5,3 +5,8 @@ emp2 = Employee("Ahmed" ,45 ,"HR" ,False ,4000)
 
 emp1.print_info()
 emp1.bonus()
+
+#inheritence
+doc1 = Doctor("Mazen" ,38 ,"Medical" ,True ,8000)
+
+doc1.bonus()
